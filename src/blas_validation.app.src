@@ -5,7 +5,10 @@
   {mod, {blas_validation_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    grisp,
+    grisp_cryptoauth,
+    blas
    ]},
   {env,[]},
   {modules, []},
